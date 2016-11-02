@@ -1,0 +1,92 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: verdana;
+	color:#bcbcbc;
+}
+
+body{
+
+}
+
+/*menu lateral*/
+
+div#barra-lateral{
+	position:fixed;
+	width:65px;
+	height:100%;
+	background-color:#2f3030;
+	overflow:hidden;
+	-webkit-transition:width 0.5s cubic-bezier(.61,.01,.37,1);
+}
+
+div#barra-lateral:hover{
+	width:170px;
+}
+
+div#logo-menu{
+	width:40px;
+	height:40px;
+	margin:10px;
+	background-image:url(images/car.png);/*carga de imagen*/
+}
+
+div#contenedor-logos-primero{
+	margin-top:70px;
+}
+
+div.contenedor-logos{
+	margin-top:20px;
+	margin-left:10px;
+	width:130px;
+	height:40px;
+	
+}
+
+div.logo{
+	width:40px;
+	height:40px;
+	background-image:url(images/car.png);/*carga de imagen*/
+	float: left;
+}
+
+p.title-menu{
+	margin-left:60px;
+	line-height: 40px;
+}
+
+/*body*/
+
+div#body{
+	position:absolute;
+	right:0px;
+	min-height:300px;
+	left:170px;
+}
+
+div#texto{
+	width:50%;
+	min-height:300px;
+	float:left;
+}
+
+p#texto-contenedor-1{
+	font-size:25px;
+	margin:30px;
+	margin-top:50px;
+	color:#FFFFFF;
+
+}
+
+div#foto{
+	width:50%;
+	height:300px;
+	float:right;
+}
+
+img#foto-contenedor-1{
+	margin:auto;
+	margin-top:15px;
+	width:300px;
+	display:block;
+}

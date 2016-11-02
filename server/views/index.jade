@@ -1,0 +1,428 @@
+doctype html
+html(lang='es')
+  head
+    meta(charset='utf-8')
+    |     
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    |     
+    meta(name='description', content='')
+    |     
+    meta(name='author', content='')
+    |     
+    title Seguridad | Morelos
+    |     
+    link(href='/public/css/bootstrap.min.css', rel='stylesheet')
+    |     
+    link(href='/public/css/bootstrap-flex.min.css', rel='stylesheet')
+    |     
+    link(href='/public/css/font-awesome.min.css', rel='stylesheet')
+    |     
+    link(href='/public/css/prettyPhoto.css', rel='stylesheet')
+    |     
+    link(href='/public/css/main.css', rel='stylesheet')
+    |     
+    link(rel='shortcut icon', href='images/ico/user.png')
+  // /head
+  body(data-spy='scroll', data-target='#navbar', data-offset='0')
+    header#header(role='banner')
+      .container
+        .container
+          #navbar.navbar.navbar-default
+            .navbar-header
+              button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+                span.sr-only Toggle navigation
+                |                         
+                span.icon-bar
+                |                         
+                span.icon-bar
+                |                         
+                span.icon-bar
+              |                     
+              a.navbar-brand(href='index.html')
+            |                 
+            .collapse.navbar-collapse
+              ul.nav.navbar-nav
+                li.active
+                  a(href='#main-slider')
+                    i.icon-home
+                |                         
+                li
+                  a(href='#services') Informaci&oacute;n
+                |                         
+                li
+                  a(href='#portfolio') Servicios
+                |                         
+                li
+                  a(href='#contact') Contacto
+    // /#header
+    section#main-slider.carousel
+      .carousel-inner
+        .item.active
+          .container
+            .carousel-content
+              h1 Centros de Seguridad
+              |                         
+              p.lead
+                | Policia Municipal o Regional, Transito, Centros de Informaci&oacute;n, Policia Estatal
+                br
+                | Y Policia Federal.
+        // /.item
+        .item
+          .container
+            .carousel-content
+              h1 Servicios de Salud
+              |                         
+              p.lead
+                | Hospitales (Publicos o Privados), Cruz Roja, Centros de Salud
+                br
+                | Y Campa&ntilde;as de Salubridad.
+        // /.item
+        .item
+          .container
+            .carousel-content
+              h1 Centros de Informaci&oacute;n
+              |                         
+              p.lead
+                | Institutciones de Gubernamentales, Derechos Humanos, Centros de Visita Guiada
+                br
+                | Y Centros turisticos
+        // /.item
+      // /.carousel-inner
+      a.prev(href='#main-slider', data-slide='prev')
+        i.icon-angle-left
+      |         
+      a.next(href='#main-slider', data-slide='next')
+        i.icon-angle-right
+    // /#main-slider
+    section#services
+      .container
+        .box.first
+          .row
+            .col-md-4.col-sm-6
+              .center
+                img(src='images/portfolio/shield.png', alt='')
+                |                             
+                h4 Policia
+                |                             
+                p
+                  | Policia o Emergencias  080 y 060
+                  br
+                  | Seguridad P&uacute;blica  317-3266
+                  br
+                  | Policia Judicial  329-1500
+                  br
+                  | Policia Federal de  Caminos  312-3536
+                  br
+                  | Protecci&oacute;n Civil Mun.  312-1274
+                  br
+                  | Protecci&oacute;n Civil Est.  312-4942
+            // /.col-md-4
+            .col-md-4.col-sm-6
+              .center
+                img(src='images/portfolio/doctor.png', alt='')
+                |                             
+                h4 Hospitales
+                |                             
+                p
+                  | Urgencias  315-5000
+                  br
+                  | I.S.S.S.T.E. Hospital  314-1900
+                  br
+                  | Hospital General  311-2209
+                  br
+                  | Hospital del Ni&ntilde;o  Morelense  311-7332
+                  br
+                  | Hospital Cuernavaca  311-2482
+                  br
+                  | Hospital Heri Dunant  316-0489
+            // /.col-md-4
+            .col-md-4.col-sm-6
+              .center
+                img(src='images/portfolio/girl.png', alt='')
+                |                             
+                h4 Derechoas Humanos
+                |                             
+                p
+                  | Protecci&oacute;n Civil Mun.  312-1274
+                  br
+                  | Protecci&oacute;n Civil Est.  312-4942
+                  br
+                  | Comisi&oacute;n Estatal de  Derechos Humanos  312-6675
+                  br
+                  | PROFECO  311-5200
+            // /.col-md-4
+            .col-md-4.col-sm-6
+              .center
+                img(src='images/portfolio/car.png', alt='')
+                |                             
+                h4 Transito
+                |                             
+                p
+                  | Accidentes de Tr&aacute;nsito  316-1166
+                  br
+                  | Ministerio P&uacute;blico del  Estado  329-1500
+            // /.col-md-4
+            .col-md-4.col-sm-6
+              .center
+                img(src='images/portfolio/shopping-cart.png', alt='')
+                |                             
+                h4 Otros Servicos
+                |                             
+                p
+                  | PROFECO  311-5200
+                  br
+                  | C.F.E.  318-6852  329-4199
+                  br
+                  | Fugas de Gas  312-1929
+                  br
+                  | Fugas de Agua  312-8428
+                  br
+                  | Antirr&aacute;bico 000-000-000
+                  br
+                  | Acopio Animal  312-2837
+            // /.col-md-4
+            .col-md-4.col-sm-6
+              .center
+                img(src='images/portfolio/price-tag.png', alt='')
+                |                             
+                h4 Nuevos Servicios
+                |                             
+                p Darte de alta en una nueva zona !Envia tu Informaci&oacute;n
+            // /.col-md-4
+          // /.row
+        // /.box
+      // /.container
+    // /#services
+    section#portfolio
+      .container
+        .box
+          .center.gap
+            h2 Servicios
+            |                     
+            p.lead
+              | Con la m&aacute;s moderna tecnolog&iacute;a y cuyo objetivo principal ser&aacute; propiciar la coordinaci&oacute;n de todas las dependencias encargadas de la seguridad as&iacute; como de prestar los servicios a emergencias ya que este centro albergara las plataformas tecnol&oacute;gicas como lo es la red de telecomunicaciones, la red de radiocomunicaci&oacute;n, sistemas de informaci&oacute;n, as&iacute; como de servicios de emergencia del Gobierno.
+          // /.center
+          ul.portfolio-filter
+            li
+              a.btn.btn-primary.active(href='#', data-filter='*') Todo
+            |                     
+            li
+              a.btn.btn-primary(href='#', data-filter='.bootstrap') Hospitales
+            |                     
+            li
+              a.btn.btn-primary(href='#', data-filter='.html') Centros de Atenci&oacute;n
+            |                     
+            li
+              a.btn.btn-primary(href='#', data-filter='.wordpress') Atenci&oacute;n y Cuidados
+          // /#portfolio-filter
+          ul.portfolio-items.col-4
+            li.portfolio-item.apps
+              .item-inner
+                .portfolio-image
+                  img(src='images/portfolio/thumb/item1.jpg', alt='')
+                  |                                 
+                  .overlay
+                    a.preview.btn.btn-danger(title='Policia C5 de Morelos', href='images/portfolio/full/item1.jpg')
+                      i.icon-eye-open
+                |                             
+                h5 Servicios de emergencia del Gobierno
+            // /.portfolio-item
+            li.portfolio-item.joomla.bootstrap
+              .item-inner
+                .portfolio-image
+                  img(src='images/portfolio/thumb/item2.jpg', alt='')
+                  |                                 
+                  .overlay
+                    a.preview.btn.btn-danger(title='Hospitales Generales en Distintas Zonas', href='images/portfolio/full/item2.jpg')
+                      i.icon-eye-open
+                |  
+                |                             
+                h5 Mas de 10 mil Hospitales en Morelos
+            // /.portfolio-item
+            li.portfolio-item.bootstrap.wordpress
+              .item-inner
+                .portfolio-image
+                  img(src='images/portfolio/thumb/item3.jpg', alt='')
+                  |                                 
+                  .overlay
+                    a.preview.btn.btn-danger(title='Hospital General de Morelos', href='images/portfolio/full/item3.jpg')
+                      i.icon-eye-open
+                |                             
+                h5 Hospital General de Cuernavaca
+            // /.portfolio-item
+            li.portfolio-item.joomla.wordpress.apps
+              .item-inner
+                .portfolio-image
+                  img(src='images/portfolio/thumb/item4.jpg', alt='')
+                  |                                 
+                  .overlay
+                    a.preview.btn.btn-danger(title='Comisión de Derechos Humanos en Morelos', href='images/portfolio/full/item4.jpg')
+                      i.icon-eye-open
+                |                             
+                h5 Mas de 5 Mil centros de Atenci&oacute;n
+            // /.portfolio-item
+            li.portfolio-item.joomla.html
+              .item-inner
+                .portfolio-image
+                  img(src='images/portfolio/thumb/item5.jpg', alt='')
+                  |                                 
+                  .overlay
+                    a.preview.btn.btn-danger(title='Centro de justicia de la Mujer', href='images/portfolio/full/item5.jpg')
+                      i.icon-eye-open
+                |                             
+                h5 Centro De Atenci&oacute;n Cuernavaca
+            // /.portfolio-item
+            li.portfolio-item.wordpress.html
+              .item-inner
+                .portfolio-image
+                  img(src='images/portfolio/thumb/item6.jpg', alt='')
+                  |                                 
+                  .overlay
+                    a.preview.btn.btn-danger(title='Centro de Atención Cuautla', href='images/portfolio/full/item6.jpg')
+                      i.icon-eye-open
+                |                             
+                h5 Ccentro de Atenci&oacute;n
+            // /.portfolio-item
+            li.portfolio-item.joomla.html
+              .item-inner
+                .portfolio-image
+                  img(src='images/portfolio/thumb/item5.jpg', alt='')
+                  |                                 
+                  .overlay
+                    a.preview.btn.btn-danger(title='Centro de Atención de la Mujer', href='images/portfolio/full/item5.jpg')
+                      i.icon-eye-open
+                |                             
+                h5 Centro de Atencion Morelos
+            // /.portfolio-item
+            li.portfolio-item.wordpress.html
+              .item-inner
+                .portfolio-image
+                  img(src='images/portfolio/thumb/item6.jpg', alt='')
+                  |                                 
+                  .overlay
+                    a.preview.btn.btn-danger(title='Centros de Capacitación en Seguridad', href='images/portfolio/full/item6.jpg')
+                      i.icon-eye-open
+                |                             
+                h5 Centros de Seguridad y Capacitaci&oacute;n de Moreloss
+            // /.portfolio-item
+        // /.box
+      // /.container
+    // /#portfolio
+    section#contact
+      .container
+        .box.last
+          .row
+            .col-sm-6
+              h1 Contacto
+              |                         
+              p Informaci&oacute;n Adicional As&iacute; Como Detalles o &iacute;nformaci&oacute;n Adicional. Visite.
+              |                         
+              .status.alert.alert-success(style='display: none')
+              |                         
+              form#main-contact-form.contact-form(name='contact-form', method='post', action='sendemail.php', role='form')
+                .row
+                  .col-sm-6
+                    .form-group
+                      input.form-control(type='text', required='required', placeholder='Nombre')
+                  |                                 
+                  .col-sm-6
+                    .form-group
+                      input.form-control(type='text', required='required', placeholder='e-mail')
+                |                             
+                .row
+                  .col-sm-12
+                    .form-group
+                      textarea#message.form-control(name='message', required='required', rows='8', placeholder='Mensaje')
+                    |                                     
+                    .form-group
+                      button.btn.btn-danger.btn-lg(type='submit') Enviar Mensaje
+            // /.col-sm-6
+            .col-sm-6
+              h1 Nuestra Direcci&oacute;n
+              |                         
+              .row
+                .col-md-6
+                  address
+                    strong Instituto Tecnol&oacute;gico De Cuautla.
+                    br
+                    |                                     Libramiento Cuautla-Oaxaca S/N, Juan Morales, 62745.
+                    br
+                    |                                      Cuautla, Mor.
+                    br
+                    |                                     
+                    abbr(title='Phone') Tel&eacute;fono:
+                    |  (01) 735 353 6496
+                |                             
+                .col-md-6
+                  address
+                    strong Twitter, Inc.
+                    br
+                    |                                     @ITCuautla.Oficial
+                    br
+                    |                                     ITC
+                    br
+                    |                                     
+                    abbr(title='Phone') Fundaci&oacute;n:
+                    |  26 de agosto de 1991
+              |                         
+              h1 Visita Nuestras Redes Sociales
+              |                         
+              .row
+                .col-md-6
+                  ul.social
+                    li
+                      a(href='#')
+                        i.icon-facebook.icon-social
+                        |  Facebook
+                    |                                     
+                    li
+                      a(href='#')
+                        i.icon-google-plus.icon-social
+                        |  Google Plus
+                    |                                     
+                    li
+                      a(href='#')
+                        i.icon-pinterest.icon-social
+                        |  Pinterest
+                |                             
+                .col-md-6
+                  ul.social
+                    li
+                      a(href='#')
+                        i.icon-linkedin.icon-social
+                        |  Linkedin
+                    |                                     
+                    li
+                      a(href='#')
+                        i.icon-twitter.icon-social
+                        |  Twitter
+                    |                                     
+                    li
+                      a(href='#')
+                        i.icon-youtube.icon-social
+                        |  Youtube
+            // /.col-sm-6
+          // /.row
+        // /.box
+      // /.container
+    // /#contact
+    footer#footer
+      .container
+        .row
+          .col-sm-6
+            | &copy; 2016 
+            a(target='_blank', href='http://itcuautla/', title='jhjgh') BroCode
+            | . All Rights Reserved.
+          |                 
+          .col-sm-6
+            img.pull-right(src='', title='ITC')
+    // /#footer
+    script(src='/public/js/jquery.js')
+    |     
+    script(src='/public/js/bootstrap.min.js')
+    |     
+    script(src='/public/js/jquery.isotope.min.js')
+    |     
+    script(src='/public/js/jquery.prettyPhoto.js')
+    |     
+    script(src='/public/js/main.js')

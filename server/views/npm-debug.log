@@ -1,0 +1,193 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'html2jade' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.29
+4 verbose cache add [ 'html2jade', null ]
+5 verbose cache add name=undefined spec="html2jade" args=["html2jade",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'html2jade',
+6 verbose parsed url   path: 'html2jade',
+6 verbose parsed url   href: 'html2jade' }
+7 silly lockFile 512a5fdd-html2jade html2jade
+8 verbose lock html2jade /home/deadpool/.npm/512a5fdd-html2jade.lock
+9 silly lockFile 512a5fdd-html2jade html2jade
+10 silly lockFile 512a5fdd-html2jade html2jade
+11 verbose addNamed [ 'html2jade', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile a813af54-html2jade html2jade@
+14 verbose lock html2jade@ /home/deadpool/.npm/a813af54-html2jade.lock
+15 silly addNameRange { name: 'html2jade', range: '*', hasData: false }
+16 verbose request where is /html2jade
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 21a2851b1d46eee9
+19 verbose url raw /html2jade
+20 verbose url resolving [ 'https://registry.npmjs.org/', './html2jade' ]
+21 verbose url resolved https://registry.npmjs.org/html2jade
+22 verbose request where is https://registry.npmjs.org/html2jade
+23 info trying registry request attempt 1 at 10:14:09
+24 verbose etag "BPRCDRMC1WBF28393VKS42LQJ"
+25 http GET https://registry.npmjs.org/html2jade
+26 http 200 https://registry.npmjs.org/html2jade
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"EW48YJIJRJVISOZQRDR9B5NC3"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'content-encoding': 'gzip',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     'content-length': '7878',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Mon, 31 Oct 2016 16:14:19 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-lax8639-LAX',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1477930459.370761,VS0,VE366',
+27 silly registry.get     vary: 'Accept-Encoding' } ]
+28 silly addNameRange number 2 { name: 'html2jade', range: '*', hasData: true }
+29 silly addNameRange versions [ 'html2jade',
+29 silly addNameRange   [ '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.0.5',
+29 silly addNameRange     '0.0.6',
+29 silly addNameRange     '0.0.7',
+29 silly addNameRange     '0.0.8',
+29 silly addNameRange     '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.1.4',
+29 silly addNameRange     '0.1.15',
+29 silly addNameRange     '0.1.16',
+29 silly addNameRange     '0.1.17',
+29 silly addNameRange     '0.1.18',
+29 silly addNameRange     '0.1.19',
+29 silly addNameRange     '0.1.20',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.4.2',
+29 silly addNameRange     '0.4.3',
+29 silly addNameRange     '0.4.4',
+29 silly addNameRange     '0.4.5',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.5.3',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '0.6.2',
+29 silly addNameRange     '0.6.3',
+29 silly addNameRange     '0.6.4',
+29 silly addNameRange     '0.6.5',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.7.5',
+29 silly addNameRange     '0.7.6',
+29 silly addNameRange     '0.7.7',
+29 silly addNameRange     '0.7.8',
+29 silly addNameRange     '0.8.0',
+29 silly addNameRange     '0.8.1',
+29 silly addNameRange     '0.8.2',
+29 silly addNameRange     '0.8.3',
+29 silly addNameRange     '0.8.4',
+29 silly addNameRange     '0.8.5',
+29 silly addNameRange     '0.8.6' ] ]
+30 verbose addNamed [ 'html2jade', '0.8.6' ]
+31 verbose addNamed [ '0.8.6', '0.8.6' ]
+32 silly lockFile 91bf50bf-html2jade-0-8-6 html2jade@0.8.6
+33 verbose lock html2jade@0.8.6 /home/deadpool/.npm/91bf50bf-html2jade-0-8-6.lock
+34 silly lockFile d72285f2-rg-html2jade-html2jade-0-8-6-tgz https://registry.npmjs.org/html2jade/-/html2jade-0.8.6.tgz
+35 verbose lock https://registry.npmjs.org/html2jade/-/html2jade-0.8.6.tgz /home/deadpool/.npm/d72285f2-rg-html2jade-html2jade-0-8-6-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/html2jade/-/html2jade-0.8.6.tgz',
+36 verbose addRemoteTarball   '2b3774189d395f77397888e91c8c61ec46e4248b' ]
+37 info retry fetch attempt 1 at 10:14:10
+38 verbose fetch to= /tmp/npm-9254-fOUWAIw7/registry.npmjs.org/html2jade/-/html2jade-0.8.6.tgz
+39 http GET https://registry.npmjs.org/html2jade/-/html2jade-0.8.6.tgz
+40 http 200 https://registry.npmjs.org/html2jade/-/html2jade-0.8.6.tgz
+41 silly lockFile d72285f2-rg-html2jade-html2jade-0-8-6-tgz https://registry.npmjs.org/html2jade/-/html2jade-0.8.6.tgz
+42 silly lockFile d72285f2-rg-html2jade-html2jade-0-8-6-tgz https://registry.npmjs.org/html2jade/-/html2jade-0.8.6.tgz
+43 silly lockFile 91bf50bf-html2jade-0-8-6 html2jade@0.8.6
+44 silly lockFile 91bf50bf-html2jade-0-8-6 html2jade@0.8.6
+45 silly lockFile a813af54-html2jade html2jade@
+46 silly lockFile a813af54-html2jade html2jade@
+47 silly resolved [ { name: 'html2jade',
+47 silly resolved     description: 'HTML to Jade conversion tool',
+47 silly resolved     version: '0.8.6',
+47 silly resolved     author: { name: 'Don Park', email: 'donpark@docuverse.com' },
+47 silly resolved     repository: { type: 'git', url: 'git://github.com/donpark/html2jade.git' },
+47 silly resolved     license: 'BSD',
+47 silly resolved     main: './lib/html2jade.js',
+47 silly resolved     bin: { html2jade: './cli.js' },
+47 silly resolved     scripts: { prepublish: 'coffee -c lib', test: 'mocha' },
+47 silly resolved     dependencies: { commander: '*', he: '^0.4.1', 'jsdom-little': '^0.10.5' },
+47 silly resolved     devDependencies: { async: '*', mocha: '*', 'coffee-script': '~1.6.3' },
+47 silly resolved     engines: { node: '>= 0.4.0' },
+47 silly resolved     gitHead: '29f27cfa901f845360035221778b7aa7876f49b0',
+47 silly resolved     bugs: { url: 'https://github.com/donpark/html2jade/issues' },
+47 silly resolved     homepage: 'https://github.com/donpark/html2jade#readme',
+47 silly resolved     _id: 'html2jade@0.8.6',
+47 silly resolved     _shasum: '2b3774189d395f77397888e91c8c61ec46e4248b',
+47 silly resolved     _from: 'html2jade@',
+47 silly resolved     _npmVersion: '3.10.8',
+47 silly resolved     _nodeVersion: '6.9.1',
+47 silly resolved     _npmUser: { name: 'aichholzer', email: 'theaichholzer@gmail.com' },
+47 silly resolved     dist:
+47 silly resolved      { shasum: '2b3774189d395f77397888e91c8c61ec46e4248b',
+47 silly resolved        tarball: 'https://registry.npmjs.org/html2jade/-/html2jade-0.8.6.tgz' },
+47 silly resolved     maintainers: [ [Object], [Object] ],
+47 silly resolved     _npmOperationalInternal:
+47 silly resolved      { host: 'packages-12-west.internal.npmjs.com',
+47 silly resolved        tmp: 'tmp/html2jade-0.8.6.tgz_1477902766939_0.764996754238382' },
+47 silly resolved     directories: {},
+47 silly resolved     _resolved: 'https://registry.npmjs.org/html2jade/-/html2jade-0.8.6.tgz' } ]
+48 info install html2jade@0.8.6 into /usr/local/lib
+49 info installOne html2jade@0.8.6
+50 verbose lib/node_modules/html2jade unbuild
+51 verbose tar unpack /home/deadpool/.npm/html2jade/0.8.6/package.tgz
+52 silly lockFile a6349c44-local-lib-node-modules-html2jade tar:///usr/local/lib/node_modules/html2jade
+53 verbose lock tar:///usr/local/lib/node_modules/html2jade /home/deadpool/.npm/a6349c44-local-lib-node-modules-html2jade.lock
+54 silly lockFile 2ef5bb9d--npm-html2jade-0-8-6-package-tgz tar:///home/deadpool/.npm/html2jade/0.8.6/package.tgz
+55 verbose lock tar:///home/deadpool/.npm/html2jade/0.8.6/package.tgz /home/deadpool/.npm/2ef5bb9d--npm-html2jade-0-8-6-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 error Error: EACCES, mkdir '/usr/local/lib/node_modules/html2jade'
+57 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/html2jade']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/local/lib/node_modules/html2jade',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/local/lib/node_modules/html2jade',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/lib/nodejs/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/lib/nodejs/mkdirp/index.js:46:53',
+57 error      'Object.oncomplete (fs.js:107:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Linux 3.16.0-4-amd64
+60 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "html2jade"
+61 error cwd /home/deadpool/Proyectos/heroku/lockclosed/views
+62 error node -v v0.10.29
+63 error npm -v 1.4.21
+64 error path /usr/local/lib/node_modules/html2jade
+65 error fstream_path /usr/local/lib/node_modules/html2jade
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/html2jade'
+71 error fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:46:53
+71 error fstream_stack Object.oncomplete (fs.js:107:15)
+72 verbose exit [ 3, true ]

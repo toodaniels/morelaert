@@ -1,0 +1,8 @@
+{
+  "name": "Proyect lockclosed",
+  "description": "A simple example using nodejs and heroku for deploy a system security for houses",
+  "repository": "https://git.heroku.com/lockclosed.git",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express",,"node-telegram-bot-api" "static"],
+  "image": "heroku/nodejs"
+}
